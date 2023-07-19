@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryMgmt.EFCore.DataAccess\LibraryMgmt.EFCore.DataAccess.csproj" />
+    <ProjectReference Include="..\LibraryMgmt.EFCore.Domain\LibraryMgmt.EFCore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
